@@ -132,9 +132,7 @@ async function SelectionSort(delay = 300) {
         bars[i].style.backgroundColor = " rgb(49, 226, 13)";
     }
 
-    // To enable the button "Generate New Array" after final(sorted)
-    document.getElementById("Button1").disabled = false;
-    document.getElementById("Button1").style.backgroundColor = "#6f459e";
+
 
     // To enable the button "Selection Sort" after final(sorted)
     document.getElementById("Button2").disabled = false;
@@ -144,10 +142,6 @@ async function SelectionSort(delay = 300) {
 // Call "generatebars" function
 generatebars();
 
-// function to generate new random array
-function generate() {
-    window.location.reload();
-}
 
 // function to disable the button
 function disable() {
