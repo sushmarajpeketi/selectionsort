@@ -27,7 +27,8 @@ function generatebars(num = 20) {
         const bar = document.createElement("div");
 
         // To add class "bar" to "div"
-        bar.classList.add("bar"); // https://developer.mozilla.org/en-US/docs/Web/API/Element/ClassList     
+        bar.classList.add("bar");
+        // https://developer.mozilla.org/en-US/docs/Web/API/Element/ClassList     
         // bar aney div element ki class add chesthunnam ....!!!!
 
         // Provide height to the bar
